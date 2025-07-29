@@ -1,4 +1,4 @@
-// File: C:\Users\admin\Desktop\MaxValue\dashboard-hero\app\input\layout.tsx
+// File: D:\Work\Max Value\dashboard\app\input\layout.tsx
 import * as entry from '../../../../app/input/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: C:\Users\admin\Desktop\MaxValue\dashboard-hero\app\job\page.tsx
+// File: D:\Work\Max Value\dashboard\app\job\page.tsx
 import * as entry from '../../../../app/job/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

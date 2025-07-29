@@ -1,4 +1,4 @@
-// File: C:\Users\admin\Desktop\MaxValue\dashboard-hero\app\worker\layout.tsx
+// File: D:\Work\Max Value\dashboard\app\worker\layout.tsx
 import * as entry from '../../../../app/worker/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
