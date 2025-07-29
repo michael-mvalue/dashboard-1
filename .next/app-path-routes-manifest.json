@@ -1,7 +1,7 @@
 {
   "/_not-found/page": "/_not-found",
   "/page": "/",
-  "/job/page": "/job",
+  "/worker/page": "/worker",
   "/input/page": "/input",
-  "/worker/page": "/worker"
+  "/job/page": "/job"
 }

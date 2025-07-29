@@ -25,6 +25,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/job": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/job",
+      "dataRoute": "/job.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/worker": {
       "experimentalBypassFor": [
         {
@@ -72,37 +96,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/job": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/job",
-      "dataRoute": "/job.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "dca1315ddd8b02c19f139dae4d3e9248",
-    "previewModeSigningKey": "26607b6291fdb3b47ea4a917d91f99e7087a5590d18b0640918a7ba81a2f2107",
-    "previewModeEncryptionKey": "88a4fe09b2af700e2660a34334a9fc43a6b741a89128f4da92eb7bdb8736b5e0"
+    "previewModeId": "b73c4b6c1626bc56d3c040ab1c1ff03d",
+    "previewModeSigningKey": "b35c532c2bcc146dd65a2b8d1aa68e347866e2a5061b181f5043c3d36e3c76c5",
+    "previewModeEncryptionKey": "e0113bebb58c62721d0021f9b7e521016e19b76cf94b2080a93e47e40c751d4e"
   }
 }
